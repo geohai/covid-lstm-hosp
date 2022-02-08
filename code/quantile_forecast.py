@@ -325,13 +325,17 @@ def export_forecasts(inv_forecast, date, n_seq, states_list):
                 target = f'{j+n_seq-6} day ahead inc hosp'
                 target_end_date = (date + timedelta(days=j+1)).strftime('%Y-%m-%d')
                 location_fip = state_fip[states_list[i]]
-                if quantile == 0.500:
-                    type = 'point'
-                    quantile_exp = 'NA'
-                else:
-                    type = 'quantile'
-                    quantile_exp = quantile
+
+                type = 'quantile'
+                quantile_exp = quantile
                 value = forecasts_quantile[i][j]
+                if quantile == 0.500:
+                    type_median = 'point'
+                    quantile_exp_median = 'NA'
+
+                    row_exp = [date.strftime('%Y-%m-%d'), target, target_end_date,
+                               location_fip, type_median, quantile_exp_median, value]
+                    export_df.loc[len(export_df.index)] = row_exp
 
                 row_exp = [date.strftime('%Y-%m-%d'), target, target_end_date,
                            location_fip, type, quantile_exp, value]

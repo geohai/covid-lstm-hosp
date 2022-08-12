@@ -1,6 +1,6 @@
 # SLSTM (Covid-lstm-hosp)
 
-Python code for predicting COVID-19 hospitalization at the state-level in the US using a stacked LSTM.
+Python code for predicting COVID-19 hospitalization at the state-level in the US using a parallel Spatial-LSTM.
 
 Package requirements:
 ```

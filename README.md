@@ -51,7 +51,7 @@ keras
 *Figure 1 – Dual‑branch SLSTM with learnable fusion weight.*
 
 ## Training & Evaluation
-![Evaluation windows](https://res.cloudinary.com/dz3zgmhnr/image/upload/v1750459455/SLSTM_arch_bj0ahf.png)  
+![Evaluation windows](https://res.cloudinary.com/dz3zgmhnr/image/upload/v1750459460/cases_hosp_with_windows_vicdvu.png)  
 *Figure 2 – Delta and Omicron evaluation windows.*
 
 Evaluation periods: **Delta** wave (15 forecasts, *21 Jun – 27 Sep 2021*) and **Omicron** wave (10 forecasts, *06 Dec 2021 – 07 Feb 2022*).  

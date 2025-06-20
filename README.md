@@ -47,18 +47,18 @@ keras
 | **Social Connectedness Index (SCI)** | Pairwise Facebook friendship intensity between US counties/states | <https://dataforgood.facebook.com/dfg/tools/social-connectedness-index> |
 
 ## Model Architecture
-![SLSTM architecture](docs/_static/SLSTM_arch.png)  
+![SLSTM architecture](https://res.cloudinary.com/dz3zgmhnr/image/upload/v1750459455/SLSTM_arch_bj0ahf.png)  
 *Figure 1 – Dual‑branch SLSTM with learnable fusion weight.*
 
 ## Training & Evaluation
-![Evaluation windows](docs/_static/cases_hosp_with_windows.png)  
+![Evaluation windows](https://res.cloudinary.com/dz3zgmhnr/image/upload/v1750459455/SLSTM_arch_bj0ahf.png)  
 *Figure 2 – Delta and Omicron evaluation windows.*
 
 Evaluation periods: **Delta** wave (15 forecasts, *21 Jun – 27 Sep 2021*) and **Omicron** wave (10 forecasts, *06 Dec 2021 – 07 Feb 2022*).  
 Metrics: MAE, MAPE, RMSE, and WIS (with dispersion, under‑ and over‑prediction components).
 
 ## Visualisation & Analysis
-![Spatial error map](docs/_static/2022-01-03_prediction_error_map_revised.png)  
+![Spatial error map](https://res.cloudinary.com/dz3zgmhnr/image/upload/v1750459446/2022-01-03_prediction_error_map_revised_r96ms2.png)  
 *Figure 3 – Spatial distribution of errors for forecasts issued 2022‑01‑03.*
 
 ## Results

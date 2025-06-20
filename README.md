@@ -59,7 +59,7 @@ Metrics: MAE, MAPE, RMSE, and WIS (with dispersion, under‑ and over‑predicti
 
 ## Visualisation & Analysis
 ![Spatial error map](https://res.cloudinary.com/dz3zgmhnr/image/upload/v1750459446/2022-01-03_prediction_error_map_revised_r96ms2.png)
-*Figure 3 – Spatial distribution of errors for forecasts issued 2022‑01‑03.*
+*Figure 3 – Spatial distribution of errors for forecasts issued 2022-01-03.*
 
 ## Results
 ### Forecast accuracy

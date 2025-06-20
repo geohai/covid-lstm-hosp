@@ -58,7 +58,7 @@ Evaluation periods: **Delta** wave (15 forecasts, *21 Jun – 27 Sep 2
 Metrics: MAE, MAPE, RMSE, and WIS (with dispersion, under‑ and over‑prediction components).
 
 ## Visualisation & Analysis
-![Spatial error map](https://res.cloudinary.com/dz3zgmhnr/image/upload/v1750459446/2022-01-03_prediction_error_map_revised_r96ms2.png)
+![Spatial error map](https://res.cloudinary.com/dz3zgmhnr/image/upload/v1750460248/2022-01-03_prediction_error_map-min_erctgz.png)
 *Figure 3 – Spatial distribution of errors for forecasts issued 2022-01-03.*
 
 ## Results
